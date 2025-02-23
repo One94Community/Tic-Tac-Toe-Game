@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(1, 17, 43);
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gameHeading {
+  margin: 10px 0px 15px 0px;
+  font-size: x-large;
+}
+.game {
+  height: 310px;
+  width: 310px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 10px;
+  gap: 5px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  background-color: rgb(200, 255, 200);
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 125, 0);
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+.reset_Button {
+  margin-top: 20px;
+}
+.reset_Button button {
+  font-size: medium;
+  padding: 8px 20px;
+  background-color: rgb(52, 117, 52);
+  border: none;
+  border-radius: 5px;
+}
+.winer {
+  padding: 25px;
+  margin: 25px;
+  background-color: rgb(75, 107, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: xx-large;
+}
+.hide{
+  display: none;
+}
+
+.textColorRed{
+  color: red;
+}
+.textColorGreen{
+  color: green;
+}
+
+.bgGreen{
+  background-color: green;
+}
+.bgRed{
+  background-color: red;
+}
